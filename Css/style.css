@@ -55,8 +55,7 @@ a:active {
 
 button {
   border: none;
-  font-family: "Lucida Sans" "Lucida Sans Regular" "Lucida Grande",
-    "Lucida Sans Unicode" "Geneva" Verdana sans-serif;
+  font-family: "Lucida Sans" "Lucida Sans Regular" "Lucida Grande" "Lucida Sans Unicode" "Geneva" Verdana sans-serif;
   background-color: blue;
   color: white;
   text-decoration: none;
@@ -180,9 +179,10 @@ button:focus {
 }
 
 @media all and (max-width: 750px) {
-  @media all and (max-width: 500px)
+  @media all and (max-width: 500px) {
     .grid {
-    grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
   }
 }
 
